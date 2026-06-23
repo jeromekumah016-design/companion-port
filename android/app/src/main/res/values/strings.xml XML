@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Companion Port</string>
+    <string name="start_extraction">Start Personality Export</string>
+</resources>
