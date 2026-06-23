@@ -1,3 +1,6 @@
 # Companion Port
 
-Tool for extracting and transferring AI companion personalities to physical humanoid robots.
+A tool to extract AI girlfriend/chatbot personalities from phone apps and transfer them to physical humanoid robots.
+
+## Goal
+Make it easy for users to move their companion's personality from an app to their bot with minimal effort.
