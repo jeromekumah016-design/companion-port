@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         enableButton.setOnClickListener(v -> {
             Intent intent = new Intent(Settings.ACTION_ACCESSIBILITY_SETTINGS);
             startActivity(intent);
-            Toast.makeText(this, "Please enable Companion Port", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, R.string.enable_prompt, Toast.LENGTH_LONG).show();
         });
     }
 

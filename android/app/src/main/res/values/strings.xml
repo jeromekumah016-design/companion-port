@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Companion Port</string>
+    <string name="start_extraction">Start Personality Export</string>
+    <string name="status_ready">Companion Port\nReady to extract personality</string>
+    <string name="enable_accessibility">Enable Accessibility Service</string>
+    <string name="enable_prompt">Please enable Companion Port</string>
+    <string name="accessibility_description">Reads your conversations in the companion apps you choose, on this phone only, so their personality can be exported. It ignores every other app.</string>
+</resources>

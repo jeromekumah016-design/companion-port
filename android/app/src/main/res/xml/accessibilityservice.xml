@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+  Least privilege:
+  - description must be a string resource (a literal here does not build);
+  - no canPerformGestures: the service only reads, it never taps for the user;
+  - once the companion apps' package names are confirmed, list them in
+    android:packageNames so Android stops delivering every other app's screen.
+    Until then PackageGate (Java) drops all events from apps not on the list.
+-->
 <accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
-    android:description="Extracts chat messages from AI companion apps"
+    android:description="@string/accessibility_description"
     android:accessibilityEventTypes="typeWindowContentChanged|typeWindowsChanged"
     android:accessibilityFeedbackType="feedbackGeneric"
     android:accessibilityFlags="flagDefault|flagIncludeNotImportantViews"
     android:canRetrieveWindowContent="true"
-    android:canPerformGestures="true" />
+    android:notificationTimeout="250" />
